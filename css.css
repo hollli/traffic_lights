@@ -1,0 +1,60 @@
+@keyframes cRed {
+    0% {background: red;;opacity: 1;}
+    25% {background: red;;opacity: 1;}
+    30% {background: red;;opacity: 1;}
+    50%{background: #7f000c;opacity: 0.33;}
+    75%{background: #7f000c;opacity: 0.33;}
+    100%{background:#7f000c;opacity: 0.33;}
+}
+@keyframes cYellow {
+    0% {background: #b1be00;opacity: 0.33;}
+    25% {background: #FFFF57;opacity: 1;}
+    30% {background: #FFFF57;opacity: 1;}
+    50%{background: #b1be00;opacity: 0.33;}
+    75%{background: #b1be00;opacity: 0.33;}
+    100%{background: #FFFF57;opacity: 1;}
+}
+@keyframes cGreen {
+    0% {background: #168400;opacity: 0.33;}
+    25% {background: #168400;opacity: 0.33;}
+    50%{background: #00ff00;;opacity: 1;}
+    64%{background: #168400;opacity: 0.33;}
+    65%{background: #00ff00;;opacity: 1;}
+    66%{background: #168400;opacity: 0.33;}
+    67%{background: #00ff00;;opacity: 1;}
+    68%{background: #168400;opacity: 0.33;}
+    69%{background: #00ff00;;opacity: 1;}
+    70%{background: #168400;opacity: 0.33;}
+    71%{background: #00ff00;;opacity: 1;}
+    72%{background: #168400;opacity: 0.33;}
+    73%{background: #00ff00;;opacity: 1;}
+    74%{background: #168400;opacity: 0.33;}
+    75%{background: #00ff00;;opacity: 1;}
+    100%{background: #168400;opacity: 0.33;}
+}
+.container li:nth-of-type(1) {
+    margin-bottom:5px;
+    animation: cRed 30s infinite;
+}
+.container li:nth-of-type(2) {
+    margin-bottom: 5px;
+    animation: cYellow 30s infinite;
+}
+.container li:nth-of-type(3) {
+    animation: cGreen 30s infinite;
+}
+li {
+    list-style-type: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 15px;
+}
+ul{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: black;
+    width: 150px;
+    height: max-content;
+    padding-left: 0;
+}
